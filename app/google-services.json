@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "620319448127",
+    "firebase_url": "https://ejemploiostableview-default-rtdb.firebaseio.com",
+    "project_id": "ejemploiostableview",
+    "storage_bucket": "ejemploiostableview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620319448127:android:c17d4ee54065befb8dec8a",
+        "android_client_info": {
+          "package_name": "com.fernando.beaconPem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620319448127-32rck28l7oialcct8f7g9jfoub8sttk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeV__fIUEWsKVcrVvLkqYiNNu58U719Zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620319448127-32rck28l7oialcct8f7g9jfoub8sttk2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "620319448127-knurt8gkkirmvi9iuruad2cibcjhu0mp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fernando-santana.FirebaseTabla"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detalle.InfoMenu">
+
+
+    <ImageView
+        android:id="@+id/idImagenDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:id="@+id/idNombreDetalle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="120dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2F2F30"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Nombre Detalle"
+        />
+
+    <TextView
+        android:id="@+id/idPrecioDetalle"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2F2F30"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Precio"
+        />
+</RelativeLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primer Plato"/>
+
+    <TextView
+    android:id="@+id/idPrimerPlatoDetalle"
+    android:layout_marginTop="10dp"
+        android:textColor="#2F2F30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Primer Plato Detalle"
+    />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segundo Plato"/>
+    <TextView
+    android:id="@+id/idSegundoPlatoDetalle"
+     android:layout_marginTop="10dp"
+        android:textColor="#2F2F30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Segundo Plato Detalle"
+    />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Postre"/>
+
+    <TextView
+        android:id="@+id/idPostreDetalle"
+        android:textSize="20dp"
+        android:textColor="#2F2F30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Postre Detalle"
+        />
+
+
+</LinearLayout>
