@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "FIREBASE";
+    private static final String TAG = "BeaconAppMain";
     RecyclerView recyclerView;
     AdaptadorCarta adaptadorCarta;
 

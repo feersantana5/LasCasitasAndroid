@@ -11,7 +11,7 @@ import com.bumptech.glide.Glide;
 import com.fernando.beaconPem.R;
 
 public class InfoMenu extends AppCompatActivity {
-    private static final String TAG = "FIREBASE";
+    private static final String TAG = "BeaconAppDetalle";
     Bundle datos;
     TextView nombreDetalle, precioDetalle, primerPlatoDetalle, segundoPlatoDetalle, postreDetalle;
     ImageView imagenDetalle;

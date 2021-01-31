@@ -20,7 +20,7 @@ import org.altbeacon.beacon.startup.RegionBootstrap;
 
 
 public class BeaconReferenceApplication extends Application implements BootstrapNotifier {
-    private static final String TAG = "FERBeaconApp";
+    private static final String TAG = "BeaconAppRef";
     private RegionBootstrap regionBootstrap;
     private BackgroundPowerSaver backgroundPowerSaver;
     private Inicio inicio = null;

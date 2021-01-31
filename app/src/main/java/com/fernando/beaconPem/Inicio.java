@@ -24,7 +24,7 @@ import java.util.Collection;
 
 public class Inicio extends Activity implements BeaconConsumer {
     Button btn;
-    protected static final String TAG = "iniActivity";
+    protected static final String TAG = "BeaconAppIni";
     private static final int PERMISSION_REQUEST_FINE_LOCATION = 1;
     private static final int PERMISSION_REQUEST_BACKGROUND_LOCATION = 2;
 

@@ -18,7 +18,7 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 public class AdaptadorCarta  extends FirebaseRecyclerAdapter<Menu,AdaptadorCarta.myViewHolder>{
-    private static final String TAG = "FIREBASE";
+    private static final String TAG = "BeaconAppAdap";
     Context context;
 
     public AdaptadorCarta(@NonNull FirebaseRecyclerOptions<Menu> options) {
